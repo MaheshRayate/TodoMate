@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="relative pt-20 md:pt-30 pb-10 flex lg:px-20 md:px-4">
+      <div className="relative min-h-200 md:min-h-auto pt-20 md:pt-30 pb-10 flex lg:px-20 md:px-4">
         <div className="w-full md:4/10 lg:w-5/10">
           <h1 className="text-center md:text-start lg:text-5xl text-4xl font-bold text-orange-500 py-10">
             Reach out to us
