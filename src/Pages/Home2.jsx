@@ -43,7 +43,7 @@ const Home2 = () => {
   return (
     <>
       <Navbar />
-      <div className="py-30 min-h-142 ">
+      <div className="py-30 min-h-210 lg:min-h-142 ">
         <ToastContainer />
         <TodoForm />
         <div className="flex  columns-0 content-start md:gap-x-5 gap-y-2 lg:gap-x-14 px-4  lg:px-10 flex-wrap justify-center">
