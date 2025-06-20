@@ -42,9 +42,9 @@ const Home = () => {
       <div className="">
         <Navbar />
 
-        <div className="px-10  mx-auto text-center -z-10 bg-red-100 py-10 min-h-120">
+        <div className="px-10  mx-auto text-center -z-10 bg-red-100 py-10 min-h-212 lg:min-h-120">
           {/*  */}
-          <h1 className=" text-4xl md:w-8/10 md:text-5xl lg:py-30 pt-25 pb-10 md:py-20  mx-auto lg:text-6xl ">
+          <h1 className=" text-5xl md:w-8/10 md:text-5xl lg:py-30 pt-25 pb-10 md:py-20  mx-auto lg:text-6xl ">
             <span
               style={{ whiteSpace: "normal", wordWrap: "break-word" }}
               ref={el}
@@ -52,7 +52,7 @@ const Home = () => {
             ></span>
           </h1>
 
-          <p className="md:w-8/10 text-center mx-auto lg:text-xl">
+          <p className="md:w-8/10  text-center my-10 md:my-0 mx-auto lg:text-xl">
             Stay organized and boost your productivity with our simple, powerful
             Todo app. Create, manage, and track your tasks effortlessly—anytime,
             anywhere.
